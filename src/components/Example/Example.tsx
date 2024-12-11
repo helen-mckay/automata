@@ -1,15 +1,16 @@
+import Section from "../Section";
 import Explanation from "./Explanation/Explanation";
 import Interactive from "./Interactive/Interactive";
 import Machine from "./Machine/Machine";
 
 const Example = () => {
     return(
-        <div>
+        <Section>
             Example
             <Explanation/>
             <Interactive/>
             <Machine/>
-        </div>
+        </Section>
     )
 }
 

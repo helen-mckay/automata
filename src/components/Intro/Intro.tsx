@@ -1,6 +1,10 @@
+import Section from "../Section";
+
 const Intro = () => {
     return(
-        <div>Intro</div>
+        <Section>
+             <div>Intro</div>
+        </Section>
     );
 }
 

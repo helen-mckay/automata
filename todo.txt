@@ -1,4 +1,30 @@
-- review existing project structure
-- set foundations for my project structure
 - import robot3 library
 - research most popular style component library out there right now & import it into this project
+- research existing solutions for full-page components
+- set up automatic deployments on vercel (updates with main branch pushes)
+- set this project to be on a subdomain of my portfolio website
+- feature this project on my portfolio website
+
+Planning:
+- sections -> each takes up entire screen (user can navigate between them with keyboard, button, or scrollbar)
+    - infroduction
+        - why finite state machines
+        - technology used
+            - Robot3
+            - React
+            - Next.js
+            - style component library
+        - link to my portfolio website
+    - example
+        - ineractive example
+        - representation of finite state machine
+            - updates to reflect changes in application state
+        - thoughts / explanations about the example
+
+- needs
+    - overall base layout
+    - introduction section
+    - consistent styling for example sections -> could be a layout or a component
+    - global styling
+    - styling for introduction section
+    - styling for example sections

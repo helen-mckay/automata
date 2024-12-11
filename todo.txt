@@ -1,6 +1,7 @@
 - import robot3 library
 - research most popular style component library out there right now & import it into this project
 - research existing solutions for full-page components
+- brainstorm how to manage the data for the examples -> will they have their own folder?
 - set up automatic deployments on vercel (updates with main branch pushes)
 - set this project to be on a subdomain of my portfolio website
 - feature this project on my portfolio website

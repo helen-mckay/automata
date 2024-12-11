@@ -1,14 +1,17 @@
-- import robot3 library
-- research most popular style component library out there right now & import it into this project
-- research existing solutions for full-page components
+- placeholder text for intro section -> done
+- make very simple finite state machine (night mode toggle?) -> can just be text that updates, no ui for now; do this in its own feature branch
+    - interactive
+    - machine representation
 - brainstorm how to manage the data for the examples -> will they have their own folder?
+- research solution for moving section to section using keyboard
 - set up automatic deployments on vercel (updates with main branch pushes)
 - set this project to be on a subdomain of my portfolio website
 - feature this project on my portfolio website
+- comment all the files very nicely
 
 Planning:
 - sections -> each takes up entire screen (user can navigate between them with keyboard, button, or scrollbar)
-    - infroduction
+    - introduction
         - why finite state machines
         - technology used
             - Robot3
@@ -29,3 +32,6 @@ Planning:
     - global styling
     - styling for introduction section
     - styling for example sections
+
+Notes:
+- Chakra UI only works on client-side components ('use client')

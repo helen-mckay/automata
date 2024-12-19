@@ -13,19 +13,21 @@ const Interactive = () => {
     return(
         <div className={current.name}>
             <Heading size="lg">Night Mode</Heading>
-            <Heading size="md">The machine's state is {current.name}</Heading>
-            <div>
-                <Heading size="sm">Machine</Heading>
-                <Heading size="sm">States</Heading>
-                <ul>
-                    <li>night</li>
-                    <li>day</li>
-                </ul>
-                <h4>transitions</h4>
-                <ul>
-                    <li>state: night ↔️ transition: toggle ↔️ state: day</li>
-                </ul>
-            </div>
+            <Heading size="md">The machine's state is <span className={current.name}>{current.name}</span></Heading>
+            <pre>
+            <code>
+            {
+            `const automaton = createMachine({
+    {night: state(
+        transition('toggle', 'day')
+    ),
+    day: state(
+        transition('toggle', 'night')
+    )
+});`
+            }
+            </code>
+            </pre>
             <Button onClick={() => send('toggle')}>{current.name === "night" ? "☀️" : "🌙"}</Button>
         </div>
     )

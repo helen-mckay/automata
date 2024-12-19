@@ -7,3 +7,19 @@
     background-color: white;
     color: black;
 }
+
+code {
+    font-family: monospace;
+}
+
+span {
+    padding: 0 0.25rem;
+}
+
+span.night {
+    background-color: purple;
+}
+
+span.day {
+    background-color: yellow;
+}

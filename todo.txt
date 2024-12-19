@@ -1,9 +1,4 @@
-- make very simple finite state machine (night mode toggle?)
-    - interactive
-    - machine representation -> this is going to be a little trickier
-        - can be tex
-- abstract out the components so that they just render the props they receive?
-- brainstorm how to manage the data for the examples -> will they have their own folder?
+- make three automata examples, first very bare, then make them pretty
 - research solution for moving section to section using keyboard
 - set up automatic deployments on vercel (updates with main branch pushes)
 - set this project to be on a subdomain of my portfolio website

@@ -15,16 +15,7 @@ const automaton = createMachine({
     )
 });
 
-const service = interpret(automaton, () => {
-    if (service.machine.current === 'day')
-    {
-        console.log('good morning!');
-    }
-    else
-    {
-        console.log('good night!');
-    }
-});
+const service = interpret(automaton, () => {});
 
 export {automaton, service};
 

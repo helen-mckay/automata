@@ -1,7 +1,8 @@
-- placeholder text for intro section -> done
-- make very simple finite state machine (night mode toggle?) -> can just be text that updates, no ui for now; do this in its own feature branch
+- make very simple finite state machine (night mode toggle?)
     - interactive
-    - machine representation
+    - machine representation -> this is going to be a little trickier
+        - can be tex
+- abstract out the components so that they just render the props they receive?
 - brainstorm how to manage the data for the examples -> will they have their own folder?
 - research solution for moving section to section using keyboard
 - set up automatic deployments on vercel (updates with main branch pushes)
